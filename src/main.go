@@ -2,22 +2,14 @@ package main
 
 import (
 	"fmt"
-	"jlalgorithm"
-	"jlanalyse"
-	"math/rand"
+	"github.com/garyburd/redigo/redis"
 )
 
 func main() {
-	const arraylen = 2000000
-	array := make([]int, arraylen)
-	rand.Seed(99)
-	for i:=0;i <arraylen;i++{
-		array[i]=rand.Intn(0xfffff)
+	conn,err := redis.Dial("tcp","10.1.210.69:6379")
+	if err != nil {
+		fmt.Println("connect redis error :",err)
+		return
 	}
-
-	//fmt.Println(array)
-	fmt.Println(jlanalyse.GetJlSortStatic().GetLoopNum())
-	jlalgorithm.Jl_quicksort(array[:], 0, arraylen)
-	//fmt.Println(array)
-	fmt.Println(jlanalyse.GetJlSortStatic().GetLoopNum())
+	defer conn.Close()
 }
