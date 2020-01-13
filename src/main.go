@@ -2,19 +2,20 @@ package main
 
 import (
 	"fmt"
-	"jlalgorithm"
-	"math/rand"
+	"jltools"
 )
 
 func main() {
-	const arraylen = 0xFF
-	array := make([]int, arraylen)
-	rand.Seed(99)
-	for i := 0; i < arraylen; i++ {
-		array[i] = rand.Intn(99)
-	}
+	keys := make(map[interface{}]uint32)
+	keys["A"] = 2
+	keys["B"] = 8
+	keys["C"] = 5
+	keys["D"] = 7
+	keys["E"] = 3
+	keys["F"] = 1
 
-	fmt.Println("before sort", array)
-	tmp := jlalgorithm.Jl_MergeSort(array)
-	fmt.Println("after sort", tmp)
+	pTree := jltools.CreatHuffman(keys)
+	if result,ok := jltools.GetHuffmanCode("F", pTree);ok{
+		fmt.Println(result)
+	}
 }

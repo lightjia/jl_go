@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3865593-7f37-4740-b603-c22a54efbb48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/jlalgorithm/jllist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jlalgorithm/jltree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jltools/jlhuffman.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jlalgorithm/jlsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jlalgorithm/jlsort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlanalyse/jlsortanalyse.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +49,8 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
