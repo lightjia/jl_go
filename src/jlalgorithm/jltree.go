@@ -20,10 +20,12 @@ func (pSelf *BinaryTree) AddLeft(pBinaryTree *BinaryTree) {
 	pSelf.pLeft = pBinaryTree
 }
 
+//Get Left Node
 func (pSelf *BinaryTree) GetLeft() *BinaryTree{
 	return pSelf.pLeft
 }
 
+//Get Right Node
 func (pSelf *BinaryTree) GetRight() *BinaryTree{
 	return pSelf.pRight
 }
