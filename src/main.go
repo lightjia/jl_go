@@ -1,8 +1,13 @@
 package main
 
-import "jltools"
+import "github.com/gin-gonic/gin"
 
 func main() {
-	jltools.Compress("E:/codeart/jl_go/src/github.com/garyburd/redigo/LICENSE", "F:/tmp.b")
-	jltools.UnCompress("F:/tmp.b", "F://tt")
+	r := gin.Default()
+	r.GET("/ping", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "pong",
+		})
+	})
+	r.Run()
 }

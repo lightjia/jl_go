@@ -8,11 +8,12 @@ import (
 )
 
 type compressHead struct {
-	srclen, dstlen, keymapLen uint32
-	patchBit                  uint8
-	keysMap                   map[interface{}]uint32
+	srclen, dstlen, keymapLen uint32	//源文件字符个数  压缩文件字符个数   哈夫曼编码字符映射个数
+	patchBit                  uint8     //压缩后不足8bit补0个数
+	keysMap                   map[interface{}]uint32	//字符统计构建哈夫曼树
 }
 
+//按照小端模式写入文件
 func getCompressedBytes(pHead *compressHead, data []byte) []byte {
 	buf := new(bytes.Buffer)
 	if err := binary.Write(buf, binary.LittleEndian, pHead.srclen); err == nil {
@@ -150,7 +151,6 @@ func UnCompress(strInFileName, strOutFileName string) bool {
 						src[srcindex] = v
 						srcindex++
 
-						//fmt.Printf("%c\n", v)
 						if len(dst) == 1 && (uint8(i)) == pHead.patchBit {
 							bEnd = true
 							break

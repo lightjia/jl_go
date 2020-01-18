@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3865593-7f37-4740-b603-c22a54efbb48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jltest/huffmantest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jltools/jlcompress.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jlalgorithm/jllist.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jlalgorithm/jllist.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jlalgorithm/jltree.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jlalgorithm/jltree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jltools/jlhuffman.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jltools/jlhuffman.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jltools/jlcompress.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jltools/jlcompress.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +24,7 @@
   </component>
   <component name="GOROOT" path="D:/program/Tool/code/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/github.com/gin-gonic/gin" />
   </component>
   <component name="GoLibraries">
     <option name="urls">
