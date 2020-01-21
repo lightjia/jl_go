@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3865593-7f37-4740-b603-c22a54efbb48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/gin-gonic/gin.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/windows_amd64/github.com/go-sql-driver/mysql.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/github.com/go-sql-driver/mysql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jlanalyse/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jltools/jlcompress.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jltools/jlcompress.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlalgorithm/jllist.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jlalgorithm/jllist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jltools/jlhuffman.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/jltools/jlhuffman.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +27,7 @@
   </component>
   <component name="GOROOT" path="D:/program/Tool/code/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/github.com/gin-gonic/gin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="urls">
@@ -46,6 +49,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -106,15 +110,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="GoApplicationRunConfiguration">
-        <watch expression="i" />
-        <watch expression="b" />
-        <watch expression="bLen" />
-        <watch expression="bArray" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
