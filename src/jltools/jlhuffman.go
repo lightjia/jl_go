@@ -73,7 +73,7 @@ func GetHuffmanCode(key interface{}, pRoot *jlalgorithm.BinaryTree) ([]byte, boo
 func CreatHuffman(keys map[interface{}]uint32) *jlalgorithm.BinaryTree {
 	var pRet *jlalgorithm.BinaryTree
 	var pList *jlalgorithm.LinkList
-	for key, value := range (keys) {
+	for key, value := range keys {
 		pList = jlalgorithm.OrderInsert(pList, jlalgorithm.NewLinkList(&huffManNode{key, value}))
 	}
 

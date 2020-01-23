@@ -8,9 +8,9 @@ import (
 )
 
 type compressHead struct {
-	srclen, dstlen, keymapLen uint32	//源文件字符个数  压缩文件字符个数   哈夫曼编码字符映射个数
-	patchBit                  uint8     //压缩后不足8bit补0个数
-	keysMap                   map[interface{}]uint32	//字符统计构建哈夫曼树
+	srclen, dstlen, keymapLen uint32                 //源文件字符个数  压缩文件字符个数   哈夫曼编码字符映射个数
+	patchBit                  uint8                  //压缩后不足8bit补0个数
+	keysMap                   map[interface{}]uint32 //字符统计构建哈夫曼树
 }
 
 //按照小端模式写入文件

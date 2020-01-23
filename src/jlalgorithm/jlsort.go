@@ -21,6 +21,6 @@ func Jl_quicksort(array []int) {
 		}
 
 		Jl_quicksort(array[0:iStart])
-		Jl_quicksort(array[iStart : len(array)])
+		Jl_quicksort(array[iStart:len(array)])
 	}
 }

@@ -6,7 +6,7 @@ import (
 	"math/rand"
 )
 
-func Huffman_Test(){
+func Huffman_Test() {
 	const LEN = 888
 	array := make([]uint8, LEN)
 	keys := make(map[interface{}]uint32)
